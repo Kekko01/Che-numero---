@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\franc\Documents\GitHub\Che-numero---\Che numero è\Che numero è\main.cpp(11,12): warning C4244: 'argomento': conversione da 'time_t' a 'unsigned int'. Possibile perdita di dati.
+  Che numero è.vcxproj -> C:\Users\franc\Documents\GitHub\Che-numero---\Che numero è\Debug\Che numero è.exe
