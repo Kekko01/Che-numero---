@@ -5,12 +5,15 @@ vinte = 0
 inserimento = 0
 while vinte < 3:
     num[1] = randint(1, 10)
-    inserimento = int(input("Ti faccio vedere questo: " + str(num[1]) + ". Che numero è? "))
+    inserimento = int(
+        input(f"Ti faccio vedere questo: {str(num[1])}. Che numero è? ")
+    )
+
     if inserimento == num[0]:
         print("Bravo! Forse hai capito come funziona!")
         vinte += 1
     else:
-        print("Ahia no! Non è il " + str(inserimento) + ", riprova!")
+        print(f"Ahia no! Non è il {inserimento}, riprova!")
         vinte = 0
     num[0] = num[1]
 print("Congratuzioni, hai capito come funziona il trucchetto!")
